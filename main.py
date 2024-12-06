@@ -1,3 +1,5 @@
-from analise_lexica import AnaliseLexica
+from src.analise_lexica import AnaliseLexica
 
-a = AnaliseLexica()
+lexico = AnaliseLexica()
+lexico.build()
+lexico.run("3+4541+2-29")
